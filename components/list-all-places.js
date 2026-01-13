@@ -40,7 +40,7 @@ class ListAllPlaces extends React.Component {
                 });
             } else {
                 // Handle invalid order value
-                //console.error('Invalid order value');
+                console.error('Invalid order value');
             }
 
 // Function to get the value to compare based on the metric
@@ -76,27 +76,19 @@ class ListAllPlaces extends React.Component {
                                 {/*<p>Change since last year: <span className="result">{place.CHANGE * -1}</span> </p>*/}
                                 <p>Natural Environment: <span className="result">{place.NE}</span></p>
                                 <p>Wellbeing: <span className="result">{place.WB}</span></p>
-                                <p>Heritage / Culture: <span className="result">{place.HC}</span></p>
-                                <p>Schools, Employment & Connectivity: <span className="result">{place.SCH}</span></p>
+                                <p>Employment / Connectivity: <span className="result">{place.EC}</span></p>
                                 <p>House Price Quality & Value: <span className="result">{place.HP}</span></p>
                                 {/*<p>Overall Ranking: </p>*/}
-                                {/*<p>Average family home cost: <span className="result">{place.AP}</span></p>*/}
-                                {/*<p>Sales price change in last 12 months: <span*/}
-                                {/*    className="result">{place.SPC}</span></p>*/}
-                                <div>
-                                <p style={{fontSize: '12px'}}>Overall average sales price for all property (Local Authority level): <span
-                                        style={{textAlign: 'right', float: 'none'}} className="result">{place.AP}</span></p>
-                                <p style={{fontSize: '12px'}}>Annual change in average sales price for all property (Local Authority level): <span style={{textAlign: 'right', float: 'none'}}
-                                                                                      className="result">{place.SPC}</span>
-                                </p>
-                                </div>
+                                <p>Average family home cost: <span className="result">{place.AP}</span></p>
+                                <p>Sales price change in last 12 months: <span
+                                    className="result">{place.SPC}</span></p>
                             </div>
                         )}
                     </div>
                 )
             })
         }
-        //console.log(this.props.places);
+        console.log(this.props.places);
         return (
             <div>
                 {listPlaces()}

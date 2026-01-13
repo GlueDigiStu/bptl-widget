@@ -18,7 +18,7 @@ class SelectCounty extends React.Component{
 
     render(){
         return(
-            <div>
+            <div className='select-region-container'>
                 <select
                     className="select-region"
                     value={this.props.selectedCounty}

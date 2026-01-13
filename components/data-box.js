@@ -30,13 +30,12 @@ class DataBox extends React.Component{
                     <hr/>
                     <p>Natural Environment: <span className="result">{val[0].NE}</span></p>
                     <p>Wellbeing: <span className="result">{val[0].WB}</span></p>
-                    <p>Heritage / Culture: <span className="result">{val[0].HC}</span></p>
-                    <p>Schools, Employment and Connectivity: <span className="result">{val[0].SCH}</span></p>
+                    <p>Employment / Connectivity: <span className="result">{val[0].EC}</span></p>
                     <p>House Price Quality and Value: <span className="result">{val[0].HP}</span></p>
                     {/*<p>Overall Ranking: </p>*/}
                     <hr/>
-                    <p style={{fontSize: '12px'}}>Overall average sales price for all property (Local Authority level): <span style={{textAlign: 'right'}} className="result">{val[0].AP}</span></p>
-                    <p style={{fontSize: '12px'}}>Annual change in average sales price for all property (Local Authority level): <span style={{textAlign: 'right'}} className="result">{val[0].SPC}</span></p>
+                    <p>Average family home cost: <span className="result">{val[0].AP}</span></p>
+                    <p>Average sales price change in last 12 months: <span className="result">{val[0].SPC}</span></p>
                 </div>
             )
         } else {

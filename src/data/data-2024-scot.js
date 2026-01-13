@@ -1,4 +1,4 @@
-/**
+SN/**
  * UID: Unique ID
  * SN: Settlement Name
  * OR: Overall Ranking
