@@ -1,0 +1,15 @@
+///////CODE FOR EN WEBSITE///////
+
+
+
+<style>#garrington1234{height:800px}@media(max-width:809px){#garrington1234{height:1200px}}</style>
+<iframe id="garrington1234" src="https://bptl-2026-en.netlify.app/" style="width: 100%;border: 0;"></iframe>
+
+
+
+
+
+//////CODE FOR SCOT WEBSITE//////
+
+<style>#garrington1234{height:800px}@media(max-width:809px){#garrington1234{height:1200px}}</style>
+<iframe id="garrington1234" src="https://bptl-2026-scot.netlify.app/" style="width: 100%;border: 0;"></iframe>
